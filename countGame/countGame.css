@@ -1,0 +1,184 @@
+@charset "utf-8";
+
+body {
+    background-color: aquamarine;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+}
+
+article {
+    margin: 20px;
+}
+
+section {
+    margin: 20%;
+    margin-top: 15%;
+    margin-bottom: 25%;
+}
+
+p {
+    margin: 3%;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+input {
+    padding: 8px;
+}
+
+strong {
+    color: darkred;
+}
+
+#currentSum {
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 0px;
+    text-align: center;
+}
+
+#coinResult {
+    margin-top: 0px;
+    text-align: center;
+}
+
+#showX {
+    text-align: center;
+}
+
+#submitArea {
+    margin: 3%;
+    display: none;
+}
+
+#recieveArea {
+    margin: 3%;
+    display: none;
+}
+
+#sum {
+    margin: 3%;
+    display: none;
+}
+
+#savePoint {
+    margin: 3%;
+    margin-top: 15%;
+    display: none;
+}
+
+#savePoint .save-group {
+    display: none;
+}
+
+
+
+/* navbar */
+header {
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 85px; /* ロゴのサイズを調整 */
+    margin-right: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+h1 a {
+    text-decoration: none;
+    color: #fff
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff
+}
+
+#user-info {
+    display: flex;
+    align-items: center;
+}
+
+#user-info span {
+    color: #fff;
+    margin-right: 20px;
+}
+
+/* ログインページのcss */
+
+.home {
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.home .containerForm {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.home .containerForm .form-group {
+    margin-bottom: 20px;
+}
+
+.home .containerForm .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.home .containerForm .form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: left;
+}
+
+
